@@ -50,6 +50,7 @@
 .header__logo {
     margin-right: 20px;
     padding: 12px;
+    box-sizing: border-box;
     // TODO Fix vertical padding
 
 	@include media-breakpoint-up(md) {
