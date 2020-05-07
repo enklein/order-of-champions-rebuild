@@ -55,7 +55,11 @@
 
 	@include media-breakpoint-up(md) {
 		margin-right: 36px;
-	}
+    }
+    
+    @include media-breakpoint-down(sm) {
+        padding: 6px;
+    }
 }
 
 	.header__logo--img {
@@ -331,9 +335,9 @@
 				color: $nav-font-color-hover;
 				text-decoration:none;
 
-				&::before {
-					transform: translateX(-50%) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
-				}
+				// &::before {
+				// 	transform: translateX(-50%) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
+				// }
 			}
 
 			&::before {

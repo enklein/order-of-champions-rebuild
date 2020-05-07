@@ -28,4 +28,5 @@
 ## Docs
 (Many)
 
+`<element [ng-class]="{site-wrapper--has-overlay: toggleButtonOn === true", "burger-menu-icon--active: toggleButtonOn === true}">`
 
